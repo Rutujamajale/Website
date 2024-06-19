@@ -3,6 +3,7 @@
 import React, { useRef, useState } from 'react';
 import styles from '../page.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -22,7 +23,7 @@ const Page = () => {
             <header className={styles.header}>
                 <div className={styles.subHeader}>
                     <div className={styles.logo}>
-                        <img src="https://akeshya.com/assets/img/logo.png" alt="" height="60px" width="60px" />
+                        <Image src="https://akeshya.com/assets/img/logo.png" alt="" height={60} width={60} />
                         <h3 style={{ fontWeight: "bold" }}>AKESHYA</h3>
                     </div>
                     <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ''}`}>

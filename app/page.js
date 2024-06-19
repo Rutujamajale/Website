@@ -95,7 +95,7 @@ export default function Home() {
         <header className={styles.header}>
                 <div className={styles.subHeader}>
                     <div className={styles.logo}>
-                        <img src="https://akeshya.com/assets/img/logo.png" alt="" height="60px" width="60px" />
+                        <Image src="https://akeshya.com/assets/img/logo.png" alt="" height={60} width={60} />
                         <h3 style={{ fontWeight: "bold" }}>AKESHYA</h3>
                     </div>
                     <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ''}`}>
@@ -135,7 +135,7 @@ export default function Home() {
         </div>
 
         <div className={styles.leftSideCarusal}>
-          <img src="https://akeshya.com/assets/img/hero-img.png"/>
+          <Image src="https://akeshya.com/assets/img/hero-img.png" height={500} width={500}/>
         </div>
 
       </div>
@@ -231,7 +231,7 @@ export default function Home() {
         </ul>
         </div>
         <div className={styles.box2}>
-        <p>We're professional, but we're also friendly, and we'll always pay attention to your concerns. We expect to work with innovative people that have an open mind and are dedicated to making every idea a reality. We want to hear from you if you're interested in SEO, 
+        <p>We are professional, but we are also friendly, and we will always pay attention to your concerns. We expect to work with innovative people that have an open mind and are dedicated to making every idea a reality. We want to hear from you if you are interested in SEO, 
           have Web Development ideas, or require a graphic designer who can match your goals.</p>
 
           <div className={styles.carusalButtondiv}>
@@ -253,7 +253,13 @@ export default function Home() {
 
       <div className={styles.infoDiv}>
         <div className={styles.slideInDiv} >
-          <img src="https://akeshya.com/assets/img/counts-img.svg" width="100%" />
+        <Image
+          src="https://akeshya.com/assets/img/counts-img.svg"
+          layout="responsive"
+          width={600}
+          height={600}
+          
+        />
         </div>
 
         <div className={styles.countDiv}>

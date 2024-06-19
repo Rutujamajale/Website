@@ -70,7 +70,7 @@ const Page = () => {
         </ul>
         </div>
         <div className={styles.box2}>
-        <p>We're professional, but we're also friendly, and we'll always pay attention to your concerns. We expect to work with innovative people that have an open mind and are dedicated to making every idea a reality. We want to hear from you if you're interested in SEO, 
+        <p>We are professional, but we are also friendly, and we will always pay attention to your concerns. We expect to work with innovative people that have an open mind and are dedicated to making every idea a reality. We want to hear from you if you are interested in SEO, 
           have Web Development ideas, or require a graphic designer who can match your goals.</p>
 
           <div className={styles.carusalButtondiv}>
