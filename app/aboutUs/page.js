@@ -5,11 +5,11 @@ import Link from 'next/link';
 import Header from '../header/page';
 import Footer from '../footer/page';
 
-const page = () => {
-  const [count, setCount] = useState(3835039); 
+const Page = () => {
+  const [Count, setCount] = useState(3835039); 
   const [intervalId, setIntervalId] = useState(null);
 
-  const [count2, setCount2] = useState(14081); 
+  const [Count2, setCount2] = useState(14081); 
   const [intervalId2, setIntervalId2] = useState(null);
 
   // const router=useRouter();
@@ -99,7 +99,7 @@ const page = () => {
   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
   <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5"/>
 </svg>
-<p className={styles.count}>{count}</p>
+<p className={styles.count}>{Count}</p>
 </div>
 <p  className={styles.countText}><strong> Organic Reach</strong> (Global)</p>
 
@@ -129,7 +129,7 @@ const page = () => {
   <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
   <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
 </svg>
-<p className={styles.count}>{count2}</p>
+<p className={styles.count}>{Count2}</p>
 </div>
 <p  className={styles.countText}><strong> Watch Hours </strong>(Asia) </p>
 
@@ -161,4 +161,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page;

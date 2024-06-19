@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../page.module.css';
 import Link from 'next/link';
 
-const page = () => {
+const Page = () => {
   return (
     <div className={styles.fromSubmit}>
         <div className={styles.subfromdiv}>
@@ -15,4 +15,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page;

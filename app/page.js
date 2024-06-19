@@ -4,6 +4,7 @@ import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState,useEffect,useRef } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -144,27 +145,63 @@ export default function Home() {
       {/* content area start */}
   
       <div className={styles.contentArea}>
-  <div className={styles.boxdiv}>
-    <div className="box">
-      <img src="https://akeshya.com/assets/img/clients/client-1.png" alt="Image 1" className={styles.image} />
-    </div>
-    <div className="box">
-      <img src="https://akeshya.com/assets/img/clients/client-2.png" alt="Image 2" className={styles.image} />
-    </div>
-    <div className="box">
-      <img src="https://akeshya.com/assets/img/clients/client-3.png" alt="Image 3" className={styles.image} />
-    </div>
-    <div className="box">
-      <img src="https://akeshya.com/assets/img/clients/client-4.png" alt="Image 4" className={styles.image} />
-    </div>
-    <div className="box">
-      <img src="https://akeshya.com/assets/img/clients/client-5.png" alt="Image 5" className={styles.image} />
-    </div>
-    <div className="box">
-      <img src="https://akeshya.com/assets/img/clients/client-6.png" alt="Image 6" className={styles.image} />
-    </div>
-  </div>
-</div>
+        <div className={styles.boxdiv}>
+          <div className="box">
+            <Image
+              src="https://akeshya.com/assets/img/clients/client-1.png"
+              alt="Image 1"
+              width={80}
+              height={70}
+              className={styles.image}
+            />
+          </div>
+          <div className="box">
+            <Image
+              src="https://akeshya.com/assets/img/clients/client-2.png"
+              alt="Image 2"
+              width={80}
+              height={60}
+              className={styles.image}
+            />
+          </div>
+          <div className="box">
+            <Image
+              src="https://akeshya.com/assets/img/clients/client-3.png"
+              alt="Image 3"
+              width={80}
+              height={50}
+              className={styles.image}
+            />
+          </div>
+          <div className="box">
+            <Image
+              src="https://akeshya.com/assets/img/clients/client-4.png"
+              alt="Image 4"
+              width={80}
+              height={60}
+              className={styles.image}
+            />
+          </div>
+          <div className="box">
+            <Image
+              src="https://akeshya.com/assets/img/clients/client-5.png"
+              alt="Image 5"
+              width={80}
+              height={60}
+              className={styles.image}
+            />
+          </div>
+          <div className="box">
+            <Image
+              src="https://akeshya.com/assets/img/clients/client-6.png"
+              alt="Image 6"
+              width={80}
+              height={60}
+              className={styles.image}
+            />
+          </div>
+        </div>
+      </div>
 
 
       {/* content area end */}
@@ -309,7 +346,7 @@ export default function Home() {
       </div>
       <div><h5 style={{fontWeight:"bold",marginTop:"10px"}}>Design</h5></div>
       <div className={styles.textColor} style={{marginTop:"10px"}}>
-        Our web design services can assist you in reclaiming your company's online image. Your business will flourish on the Internet thanks to the combination of style and technology we provide, as well as our experience.
+        Our web design services can assist you in reclaiming your company online image. Your business will flourish on the Internet thanks to the combination of style and technology we provide, as well as our experience.
       </div>
     </div>
     <div className={styles.servicesBox}>
@@ -344,7 +381,7 @@ export default function Home() {
       </div>
       <div><h5 style={{fontWeight:"bold",marginTop:"10px"}}>Support</h5></div>
       <div className={styles.textColor} style={{marginTop:"10px"}}>
-        Since the beginning, we at Akeshya have specialised in website maintenance. We recognise the significance of having your business online 24 hours a day, seven days a week, and we've created a system to ensure that we're always available.
+        Since the beginning, we at Akeshya have specialised in website maintenance. We recognise the significance of having your business online 24 hours a day, seven days a week, and we created a system to ensure that we always available.
       </div>
     </div>
   </div>
@@ -364,14 +401,14 @@ export default function Home() {
     <div className={styles.serviceLine}></div>
   </div>
   <div className={styles.serviceDiv}>
-    <h6 className={styles.textColor} >Over the years we’ve evolved a tested method for attaining achievement for each one of our clients.</h6>
+    <h6 className={styles.textColor} >Over the years we evolved a tested method for attaining achievement for each one of our clients.</h6>
   </div>
 </div>
 
 <div className={styles.processDiv}>
   <div className={styles.subProcessDiv}>
     <h5 style={{fontWeight:"bold"}}>1. Planning</h5>
-    <p className={styles.textColor}>We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we're all on the same page.</p>
+    <p className={styles.textColor}>We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we are all on the same page.</p>
   </div>
   <div className={styles.subProcessDiv}>
     <h5 style={{fontWeight:"bold"}}>2. Design</h5>

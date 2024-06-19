@@ -5,7 +5,7 @@ import Header from '../header/page';
 import Footer from '../footer/page';
 import { useRouter } from 'next/navigation';
 
-const page = () => {
+const Page = () => {
 
     const[name,setName]=useState("");
   const[email,setEmail]=useState("");
@@ -145,4 +145,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page;
